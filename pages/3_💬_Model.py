@@ -48,10 +48,10 @@ st.markdown(
 )
 
 # Memuat data
-url = "https://raw.githubusercontent.com/Milaskrn/analisis-sentimen/main/data_clean.xlsx"
+url = "https://raw.githubusercontent.com/Milaskrn/analisis-sentimen/main/data_clean.csv"
 
 # Load dataset
-data = pd.read_excel(url)
+data = pd.read_csv(url)
 data["clean_text"] = data["comment"].str.lower(
 ).str.replace(r"[^a-zA-Z0-9 ]", "", regex=True)
 

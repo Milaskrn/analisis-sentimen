@@ -9,7 +9,7 @@ st.set_page_config(
 # Judul di tengah dan melebar
 st.markdown(
     """
-    <div style='margin-left: -300px; width: 200%; text-align: center; font-size: 75px; font-weight: bold;'>
+    <div style='width: 100%; text-align: center; font-size: 35px; font-weight: bold;'>
         Sentimen Analisis Ketertarikan Pembelian Mobil Listrik Suzuki Menggunakan Metode Klasifikasi Logistic Regression
     </div>
     """,
@@ -43,8 +43,8 @@ st.markdown(
 # Menampilkan video YouTube di tengah
 st.markdown(
     """
-    <div style="margin-left: -300px; justify-content: center;">
-        <iframe width="1400" height="800" src="https://www.youtube.com/embed/q1QA0VVSDwY?si=SO_68GHUj72-hIrm" frameborder="0" allowfullscreen></iframe>
+    <div style="justify-content: center;">
+        <iframe width="700" height="600" src="https://www.youtube.com/embed/q1QA0VVSDwY?si=SO_68GHUj72-hIrm" frameborder="0" allowfullscreen></iframe>
     </div>
     """,
     unsafe_allow_html=True
@@ -53,7 +53,7 @@ st.markdown(
 # Menampilkan teks konten penelitian di bawah video
 st.markdown(
     """
-    <div style='text-align: justify; font-size: 30px; margin-top: 30px; margin-left:-300px; width: 200%;'>
+    <div style='text-align: justify; font-size: 20px; margin-top: 30px; width: 100%;'>
         <b>Abstrak:</b> 
         Penelitian ini bertujuan untuk menganalisis sentimen masyarakat terhadap ketertarikan pembelian mobil listrik Suzuki 
         dengan menggunakan metode klasifikasi Logistic Regression. Dengan meningkatnya minat terhadap kendaraan listrik, 

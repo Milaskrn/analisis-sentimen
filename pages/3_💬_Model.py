@@ -19,7 +19,7 @@ st.set_page_config(
 st.markdown(
     """
     <div style='text-align: center; font-size: 60px; font-weight: bold;'>
-        Insight Penelitian
+        Model Logistioc Regression
     </div>
     """,
     unsafe_allow_html=True
@@ -34,10 +34,6 @@ except FileNotFoundError:
     with st.sidebar:
         st.write("Logo tidak ditemukan")
 
-st.sidebar.markdown(
-    "<h1 style='text-align: center; color: black;'>Project nya Miwa San</h1>",
-    unsafe_allow_html=True
-)
 
 # Mengubah warna sidebar
 st.markdown(
@@ -52,8 +48,10 @@ st.markdown(
 )
 
 # Load data
-data = pd.read_csv('data_clean.csv')
-data = data.dropna(subset=["clean_text"])
+data = pd.read_excel('data_clean.xlsx')
+data["clean_text"] = data["comment"].str.lower(
+).str.replace(r"[^a-zA-Z0-9 ]", "", regex=True)
+
 
 # Split data
 X_raw = data["clean_text"]

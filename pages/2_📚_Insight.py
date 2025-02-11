@@ -49,9 +49,9 @@ st.markdown(
 )
 
 # Memuat data
-data = pd.read_csv('data_clean.csv')
-# Menghapus baris dengan NaN pada clean_text
-data = data.dropna(subset=["clean_text"])
+data = pd.read_excel('data_clean.xlsx')
+data["clean_text"] = data["comment"].str.lower(
+).str.replace(r"[^a-zA-Z0-9 ]", "", regex=True)
 
 # Memisahkan data latih dan data uji
 X_raw = data["clean_text"]

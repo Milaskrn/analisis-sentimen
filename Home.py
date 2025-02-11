@@ -20,14 +20,6 @@ st.markdown(
 # Memuat logo Suzuki
 logo = Image.open("suzuki.png")  # Ganti dengan path logo yang sesuai
 
-# Menampilkan logo dan teks di bagian atas sidebar
-with st.sidebar:
-    st.image(logo, use_container_width=True)  # Menampilkan logo di atas
-    st.markdown(
-        "<h1 style='text-align: center; color: black;'>Project nya Miwa San</h1>",
-        unsafe_allow_html=True
-    )
-
 # Mengubah warna sidebar
 st.markdown(
     """

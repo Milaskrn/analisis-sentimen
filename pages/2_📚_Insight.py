@@ -31,11 +31,6 @@ except FileNotFoundError:
     with st.sidebar:
         st.write("Logo tidak ditemukan")
 
-st.sidebar.markdown(
-    "<h1 style='text-align: center; color: black;'>Project nya Miwa San</h1>",
-    unsafe_allow_html=True
-)
-
 # Mengubah warna sidebar
 st.markdown(
     """

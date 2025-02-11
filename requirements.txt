@@ -6,3 +6,8 @@ scikit-learn
 seaborn
 wordcloud
 numpy
+https://github.com/Milaskrn/analisis-sentimen/blob/main/data_clean.csv
+https://github.com/Milaskrn/analisis-sentimen/blob/main/chi2_features.pkl
+https://github.com/Milaskrn/analisis-sentimen/blob/main/model_lr_1000.pkl
+https://github.com/Milaskrn/analisis-sentimen/blob/main/model_lr_best.pkl
+https://github.com/Milaskrn/analisis-sentimen/blob/main/vectorizer.pkl

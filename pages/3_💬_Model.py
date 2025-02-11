@@ -73,7 +73,7 @@ train_tf_idf = pd.DataFrame(X_train_TFIDF, columns=kolom)
 test_tf_idf = pd.DataFrame(X_test_TFIDF, columns=kolom)
 
 # Streamlit UI
-option = st.selectbox("Pilih Model Logisic Regression :",
+option = st.selectbox("Pilih Model Logistic Regression :",
                       ('1000 Features', 'Best Features'))
 
 # Feature Selection

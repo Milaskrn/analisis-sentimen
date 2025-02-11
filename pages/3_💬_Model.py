@@ -19,7 +19,7 @@ st.set_page_config(
 st.markdown(
     """
     <div style='text-align: center; font-size: 60px; font-weight: bold;'>
-        Model Logistioc Regression
+        Model Logistic Regression
     </div>
     """,
     unsafe_allow_html=True
